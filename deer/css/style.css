@@ -36,7 +36,6 @@
   body {
     height: 100%;
     width: 100%;
-    font-size: 100%;
     line-height: 1;
     font-size: 14px;
     -ms-text-size-adjust: 100%;
@@ -88,7 +87,7 @@
 body {
    margin: 0;
    height: 100vh;
-   font-family: Poppins;
+  font-family: Poppins, serif;
    /* font-family: 'Roboto', sans-serif;  */
    background: rgb(234, 245, 248);
 
@@ -107,6 +106,7 @@ body {
 .content h1 {
     /* width: 200% */
     font-size: 3em;
+    line-height: 110%;
     /* margin: 0 auto; */
 
   } 
@@ -116,6 +116,7 @@ body {
   width: 40%;
   aspect-ratio: 1 / 1 ;
   object-fit: cover;
+  /*margin-top: -20px;*/
 }
 
 .forest-container {
